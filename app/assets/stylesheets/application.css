@@ -1,75 +1,15 @@
-h2{
-  margin-top:100px;
-  padding: 80px;
-  border-bottom: 1px solid #ddd;
-  background-color: black;
-  color: white;
-}
-
-h1{
-  font-size:23px;
-}
-
-ul { list-style:none; }
-
-.index {
- font-size:16px;
- padding-bottom: 25px;
- width:700px;
- border-bottom : 1px solid black ;
- margin-left: 200px;
-}
-
-.date{
-  margin-top: 100px;
-}
-
-.sidevar{
-   font-size:15px;
-   padding: 0px 0px;
-
-   width:100px;
-
-}
-
-.date{
-  font-size:16px;
-  color:gray;
-}
-
-aside{
-  float:right;
-  margin-right:250px;
-}
-
-.picture{
-  width: 1280px;
-   margin: 0 auto
-}
-
-
-  nav {
-      float: right;
-      margin-top: 15px
-    }
-
-    nav ul li {
-      float: left;
-      margin-left: 30px;
-      list-style-type: none
-    }
-
-    nav ul li a {
-      color: #7d7d7d;
-      font-weight: bold;
-      text-decoration: none
-    }
-
-    p{
-      padding-left:100px;
-    }
-
-#logo{
-  color:black;
-  text-decoration: none;
-}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */

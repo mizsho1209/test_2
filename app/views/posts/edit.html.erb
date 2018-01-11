@@ -1,6 +1,5 @@
-
 <div class = "form">
-<%=form_for :post, url: posts_path(:post) do |f|%>
+<%=form_for @post , url: post_path(@post) do |f|%>
 <p>
   <%= f.label :title %>
   <%= f.text_field :title %>
