@@ -1,0 +1,16 @@
+<aside>
+
+  <h1>★PV数ランキング</h1>
+  <ul>
+  <% Post.all.each do |post|  %>
+  <div class = "sidevar">
+  <li>
+     <%=link_to  post.title, post_path(post),
+     :style=>"color: #7d7d7d; text-decoration: none" %>
+         (<%= post.visited%>PV)
+  </li>
+  </div>
+  <% end %>
+  </ul>
+
+</aside>

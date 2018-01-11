@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Workspace</title>
+    <%= render 'layouts/head'%>
+    <%= render 'layouts/shim'%>
+  </head>
+
+  <header>
+    <p id="logo"><%= link_to 'RailsCampBlog', root_path %></p>
+    <nav>
+        <ul>
+            <li><%= link_to "トップ", root_path %></li>
+            <li><%= link_to"ユーザ登録", root_path %></li>
+            <li><%= link_to"ログイン", root_path %></li>
+
+        </ul>
+    </nav>
+</header>
+
+
+  <body>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
+    <%= yield %>
+  </body>
+</html>

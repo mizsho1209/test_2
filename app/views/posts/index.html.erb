@@ -1,0 +1,23 @@
+
+<header>
+ <%= image_tag 'main-img-244cfdfcea7f677982ca022500ce7804001235610f43ebb20212e4124b5cb4ac.jpg',
+ class: 'picture' %>
+</header>
+
+
+<body>
+   <%= render 'aside'%>
+  <ul>
+  <% @posts.each do |post|  %>
+  <div class = "index">
+  <li>
+     <%=link_to  post.title, post_path(post),
+     :style=>"color:black; text-decoration: none "%>
+     <br><span class = "date"><%= post.created_at.strftime("%Y/%m/%d ") %></span>
+  </li>
+  </div>
+ <% end %>
+
+  </ul>
+
+</body>
